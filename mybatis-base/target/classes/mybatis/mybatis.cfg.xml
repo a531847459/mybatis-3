@@ -20,7 +20,7 @@
 				<property name="url" value="jdbc:mysql://localhost:3306/mldn" />
 				<property name="username" value="root" />
 				<property name="password" value="mysqladmin" />
-			</dataSource>
+			</dataSource> 
 		</environment>
 	</environments>
 	<mappers>									<!-- 映射文件信息 -->
