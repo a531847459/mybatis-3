@@ -1,0 +1,115 @@
+2017-10-23 20:59:30,016 DEBUG [cn.zj.mapping.MemberNS.doCreate] - ==>  Preparing: INSERT INTO member(mid,name,age,salary,birthday,note) VALUES (?,?,?,?,?,?) 
+2017-10-23 20:59:30,059 DEBUG [cn.zj.mapping.MemberNS.doCreate] - ==> Parameters: mldn(String), simith(String), 18(Integer), 1800.8(Double), 2017-10-23 20:59:29.807(Timestamp), zz(String)
+2017-10-23 20:59:44,502 DEBUG [cn.zj.mapping.MemberNS.doCreate] - ==>  Preparing: INSERT INTO member(mid,name,age,salary,birthday,note) VALUES (?,?,?,?,?,?) 
+2017-10-23 20:59:44,543 DEBUG [cn.zj.mapping.MemberNS.doCreate] - ==> Parameters: mldn1(String), simith(String), 18(Integer), 1800.8(Double), 2017-10-23 20:59:44.287(Timestamp), zz(String)
+2017-10-23 20:59:44,544 DEBUG [cn.zj.mapping.MemberNS.doCreate] - <==    Updates: 1
+2017-10-23 21:10:02,226 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(nid,title,pub_date AS pubdate,note) VALUES (?,?,?,?) 
+2017-10-23 21:10:02,270 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: null, 好好学习(String), 2017-10-23 21:10:02.011(Timestamp), 天天向上(String)
+2017-10-23 21:16:59,583 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(nid,title,pub_date pubdate,note) VALUES (?,?,?,?) 
+2017-10-23 21:16:59,627 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: null, 好好学习(String), 2017-10-23 21:16:59.362(Timestamp), 天天向上(String)
+2017-10-23 21:17:12,549 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(nid,title,pub_date pubdate,note) VALUES (?,?,?,?) 
+2017-10-23 21:17:12,592 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: null, zzz(String), 2017-10-23 21:17:12.34(Timestamp), zz(String)
+2017-10-23 21:17:53,097 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date pubdate,note) VALUES (?,?,?) 
+2017-10-23 21:17:53,140 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: zzz(String), 2017-10-23 21:17:52.879(Timestamp), zz(String)
+2017-10-23 21:18:29,885 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 21:18:29,926 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: zzz(String), 2017-10-23 21:18:29.653(Timestamp), zz(String)
+2017-10-23 21:18:29,927 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 21:18:37,192 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 21:18:37,232 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 21:18:36.971(Timestamp), 天天向上(String)
+2017-10-23 21:18:37,232 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 21:22:35,746 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 21:22:35,787 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 21:22:35.506(Timestamp), 天天向上(String)
+2017-10-23 21:22:35,788 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 21:27:27,928 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 21:27:27,979 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 21:27:27.711(Timestamp), 天天向上(String)
+2017-10-23 21:27:27,980 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:30:30,072 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 22:30:30,173 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 22:30:29.725(Timestamp), 天天向上(String)
+2017-10-23 22:30:30,175 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:32:43,026 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 22:32:43,080 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 22:32:42.801(Timestamp), 天天向上(String)
+2017-10-23 22:32:43,081 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:37:31,527 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 22:37:31,596 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 22:37:31.257(Timestamp), 天天向上(String)
+2017-10-23 22:37:31,597 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:37:55,336 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 22:37:55,386 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 22:37:55.114(Timestamp), 天天向上(String)
+2017-10-23 22:37:55,390 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:59:29,529 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 22:59:29,584 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 22:59:29.302(Timestamp), 天天向上(String)
+2017-10-23 22:59:29,585 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 22:59:29,645 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==>  Preparing: UPDATE news SET title=好好学习1,note=? WHERE nid=? 
+2017-10-23 22:59:29,646 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==> Parameters: 天天向上1(String), 8(Long)
+2017-10-23 23:00:37,569 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==>  Preparing: UPDATE news SET title=好好学习2,note=? WHERE nid=? 
+2017-10-23 23:00:37,601 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==> Parameters: 天天向上2(String), 8(Long)
+2017-10-23 23:01:59,705 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==>  Preparing: UPDATE news SET title=好好学习2,note=天天向上2 WHERE nid=8 
+2017-10-23 23:01:59,738 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==> Parameters: 
+2017-10-23 23:04:25,197 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==>  Preparing: UPDATE news SET title=?,note=? WHERE nid=? 
+2017-10-23 23:04:25,236 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==> Parameters: 好好学习2(String), 天天向上2(String), 8(Long)
+2017-10-23 23:04:25,242 DEBUG [cn.zj.mapping.NewsNS.doEdit] - <==    Updates: 1
+2017-10-23 23:09:39,096 DEBUG [cn.zj.mapping.NewsNS.doRemove] - ==>  Preparing: DELETE FROM news WHERE nid=? 
+2017-10-23 23:09:39,137 DEBUG [cn.zj.mapping.NewsNS.doRemove] - ==> Parameters: 1(Long)
+2017-10-23 23:09:39,138 DEBUG [cn.zj.mapping.NewsNS.doRemove] - <==    Updates: 1
+2017-10-23 23:15:35,276 DEBUG [cn.zj.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,pub_date AS pubdate,note FROM news WHERE nid=? 
+2017-10-23 23:15:35,312 DEBUG [cn.zj.mapping.NewsNS.findById] - ==> Parameters: 8(Long)
+2017-10-23 23:15:35,338 TRACE [cn.zj.mapping.NewsNS.findById] - <==    Columns: nid, title, pubdate, note
+2017-10-23 23:15:35,346 TRACE [cn.zj.mapping.NewsNS.findById] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:15:35,370 DEBUG [cn.zj.mapping.NewsNS.findById] - <==      Total: 1
+2017-10-23 23:15:35,402 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==>  Preparing: INSERT INTO news(title,pub_date,note) VALUES (?,?,?) 
+2017-10-23 23:15:35,406 DEBUG [cn.zj.mapping.NewsNS.doCreate] - ==> Parameters: 好好学习(String), 2017-10-23 23:15:35.395(Timestamp), 天天向上(String)
+2017-10-23 23:15:35,406 DEBUG [cn.zj.mapping.NewsNS.doCreate] - <==    Updates: 1
+2017-10-23 23:15:35,446 DEBUG [cn.zj.mapping.NewsNS.doRemove] - ==>  Preparing: DELETE FROM news WHERE nid=? 
+2017-10-23 23:15:35,447 DEBUG [cn.zj.mapping.NewsNS.doRemove] - ==> Parameters: 1(Long)
+2017-10-23 23:15:35,447 DEBUG [cn.zj.mapping.NewsNS.doRemove] - <==    Updates: 0
+2017-10-23 23:15:35,497 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==>  Preparing: UPDATE news SET title=?,note=? WHERE nid=? 
+2017-10-23 23:15:35,497 DEBUG [cn.zj.mapping.NewsNS.doEdit] - ==> Parameters: 好好学习2(String), 天天向上2(String), 8(Long)
+2017-10-23 23:15:35,498 DEBUG [cn.zj.mapping.NewsNS.doEdit] - <==    Updates: 1
+2017-10-23 23:16:51,958 DEBUG [cn.zj.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,pub_date AS pubdate,note FROM news WHERE nid=? 
+2017-10-23 23:16:52,001 DEBUG [cn.zj.mapping.NewsNS.findById] - ==> Parameters: 8(Long)
+2017-10-23 23:16:52,029 TRACE [cn.zj.mapping.NewsNS.findById] - <==    Columns: nid, title, pubdate, note
+2017-10-23 23:16:52,039 TRACE [cn.zj.mapping.NewsNS.findById] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:16:52,048 DEBUG [cn.zj.mapping.NewsNS.findById] - <==      Total: 1
+2017-10-23 23:25:33,638 DEBUG [cn.zj.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,pub_date,note FROM news WHERE nid=? 
+2017-10-23 23:25:33,676 DEBUG [cn.zj.mapping.NewsNS.findById] - ==> Parameters: 8(Long)
+2017-10-23 23:25:33,729 TRACE [cn.zj.mapping.NewsNS.findById] - <==    Columns: nid, title, pub_date, note
+2017-10-23 23:25:33,736 TRACE [cn.zj.mapping.NewsNS.findById] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:25:33,738 DEBUG [cn.zj.mapping.NewsNS.findById] - <==      Total: 1
+2017-10-23 23:31:40,292 DEBUG [cn.zj.mapping.NewsNS.findAll] - ==>  Preparing: SELECT nid,title,pub_date AS pubdate,note FROM news 
+2017-10-23 23:31:40,325 DEBUG [cn.zj.mapping.NewsNS.findAll] - ==> Parameters: 
+2017-10-23 23:31:40,349 TRACE [cn.zj.mapping.NewsNS.findAll] - <==    Columns: nid, title, pubdate, note
+2017-10-23 23:31:40,356 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 2, 好好学习, 2017-10-23 21:18:36.0, <<BLOB>>
+2017-10-23 23:31:40,361 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 3, 好好学习, 2017-10-23 21:22:35.0, <<BLOB>>
+2017-10-23 23:31:40,363 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 4, 好好学习, 2017-10-23 21:27:27.0, <<BLOB>>
+2017-10-23 23:31:40,363 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 5, 好好学习, 2017-10-23 22:30:29.0, <<BLOB>>
+2017-10-23 23:31:40,367 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 6, 好好学习, 2017-10-23 22:32:42.0, <<BLOB>>
+2017-10-23 23:31:40,367 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 7, 好好学习, 2017-10-23 22:37:31.0, <<BLOB>>
+2017-10-23 23:31:40,371 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:31:40,373 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 9, 好好学习, 2017-10-23 22:59:29.0, <<BLOB>>
+2017-10-23 23:31:40,374 TRACE [cn.zj.mapping.NewsNS.findAll] - <==        Row: 10, 好好学习, 2017-10-23 23:15:35.0, <<BLOB>>
+2017-10-23 23:31:40,374 DEBUG [cn.zj.mapping.NewsNS.findAll] - <==      Total: 9
+2017-10-23 23:40:38,059 DEBUG [cn.zj.mapping.NewsNS.findMap] - ==>  Preparing: SELECT nid,title,pub_date AS pubdate,note FROM news 
+2017-10-23 23:40:38,099 DEBUG [cn.zj.mapping.NewsNS.findMap] - ==> Parameters: 
+2017-10-23 23:40:38,124 TRACE [cn.zj.mapping.NewsNS.findMap] - <==    Columns: nid, title, pubdate, note
+2017-10-23 23:40:38,130 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 2, 好好学习, 2017-10-23 21:18:36.0, <<BLOB>>
+2017-10-23 23:40:38,138 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 3, 好好学习, 2017-10-23 21:22:35.0, <<BLOB>>
+2017-10-23 23:40:38,138 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 4, 好好学习, 2017-10-23 21:27:27.0, <<BLOB>>
+2017-10-23 23:40:38,139 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 5, 好好学习, 2017-10-23 22:30:29.0, <<BLOB>>
+2017-10-23 23:40:38,140 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 6, 好好学习, 2017-10-23 22:32:42.0, <<BLOB>>
+2017-10-23 23:40:38,141 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 7, 好好学习, 2017-10-23 22:37:31.0, <<BLOB>>
+2017-10-23 23:40:38,142 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:40:38,143 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 9, 好好学习, 2017-10-23 22:59:29.0, <<BLOB>>
+2017-10-23 23:40:38,143 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 10, 好好学习, 2017-10-23 23:15:35.0, <<BLOB>>
+2017-10-23 23:40:38,144 DEBUG [cn.zj.mapping.NewsNS.findMap] - <==      Total: 9
+2017-10-23 23:41:23,865 DEBUG [cn.zj.mapping.NewsNS.findMap] - ==>  Preparing: SELECT nid,title,pub_date AS pubdate,note FROM news 
+2017-10-23 23:41:23,895 DEBUG [cn.zj.mapping.NewsNS.findMap] - ==> Parameters: 
+2017-10-23 23:41:23,918 TRACE [cn.zj.mapping.NewsNS.findMap] - <==    Columns: nid, title, pubdate, note
+2017-10-23 23:41:23,926 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 2, 好好学习, 2017-10-23 21:18:36.0, <<BLOB>>
+2017-10-23 23:41:23,933 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 3, 好好学习, 2017-10-23 21:22:35.0, <<BLOB>>
+2017-10-23 23:41:23,933 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 4, 好好学习, 2017-10-23 21:27:27.0, <<BLOB>>
+2017-10-23 23:41:23,934 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 5, 好好学习, 2017-10-23 22:30:29.0, <<BLOB>>
+2017-10-23 23:41:23,935 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 6, 好好学习, 2017-10-23 22:32:42.0, <<BLOB>>
+2017-10-23 23:41:23,936 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 7, 好好学习, 2017-10-23 22:37:31.0, <<BLOB>>
+2017-10-23 23:41:23,936 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 8, 好好学习2, 2017-10-23 22:37:55.0, <<BLOB>>
+2017-10-23 23:41:23,937 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 9, 好好学习, 2017-10-23 22:59:29.0, <<BLOB>>
+2017-10-23 23:41:23,937 TRACE [cn.zj.mapping.NewsNS.findMap] - <==        Row: 10, 好好学习, 2017-10-23 23:15:35.0, <<BLOB>>
+2017-10-23 23:41:23,938 DEBUG [cn.zj.mapping.NewsNS.findMap] - <==      Total: 9
