@@ -119,5 +119,6 @@
 	</build>
 	<modules>
 		<module>mybatis-base</module>
+		<module>mybatis-dsql</module>
 	</modules>
 </project>
